@@ -6,7 +6,7 @@ I used the following approach for my application -> https://dealer.com.cy
 Running recursively every product one by one to get it's data
 is quite slow... I wanted something that would be friendly 
 on the store's server (without spamming with lots of requests)
-and also on our own resources (less cpu and memory intensive). \ \
+and also on our own resources (less cpu and memory intensive).
 
 So my solution is using a sliding-window where i can concurrently
 run a number of crawlers but never exceed the size of the window that
@@ -18,7 +18,7 @@ is set. \
          all options available. \
     4. Window is full until a process is finished. As soon as 
         there's available space, a new tasks is spawned. \
-        -[------]------------
+        -[------]------------   \
         ----[------]---------   \
 
 This way i fully utilize my available resources 
