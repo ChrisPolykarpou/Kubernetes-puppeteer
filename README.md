@@ -19,7 +19,7 @@ is set. \
     4. Window is full until a process is finished. As soon as 
         there's available space, a new tasks is spawned. \
         -[------]------------   \
-        ----[------]---------   \
+        ----[------]---------   
 
 This way i fully utilize my available resources 
 and get the job done faster while still respecting 
